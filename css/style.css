@@ -535,7 +535,9 @@ input[type="checkbox"] {
 
 /* ======= Navigation style ======= */
 .eco-menu {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #fff;
     right: 0;
     z-index: 101;
@@ -579,7 +581,7 @@ input[type="checkbox"] {
 }
 .eco-menu ul > li a {
     color: #212228;
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Syne', sans-serif;
     font-weight: 700;
 }
